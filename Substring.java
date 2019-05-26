@@ -14,10 +14,9 @@ public class Substring {
         int n = T.length();
         int m = P.length();
         int q = Integer.MAX_VALUE;
-        /*Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.print("Input d for RabinKarp: ");
-        int d = in.nextInt();*/
-        int d = 10;
+        int d = in.nextInt();
         int dm = (int)Math.pow(d,m-1) % q;
         int h = 0;
         int h1 = 0;
